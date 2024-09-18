@@ -1,0 +1,110 @@
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   min-height: 100vh;
+   font-family: sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url(/images/bgimage.jpg);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: color;
+   background-color: #00000080;
+}
+
+a{
+   color: inherit;
+   text-decoration: none;
+}
+
+.container {
+   width: 430px;
+   background: transparent;
+   color: #fff;
+   padding: 40px 30px;
+   border-radius: 10px;
+   border: 2px solid #ffffff33;
+   box-shadow: 0 0 10px #0000001a;
+   backdrop-filter: blur(20px);
+}
+
+.container h1 {
+   font-size: 34px;
+   text-align: center;
+}
+
+.input-box {
+   position: relative;
+   width: 100%;
+   height: 50px;
+   margin: 30px 0;
+}
+
+.input-box input {
+   width: 100%;
+   height: 100%;
+   background: transparent;
+   color: #fff;
+   border: 2px solid #ffffff33;
+   outline: none;
+   border-radius: 45px;
+   font-size: 16px;
+   padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+   color: #fff;
+}
+
+.input-box i {
+   position: absolute;
+   right: 20px;
+   top: 50%;
+   transform: translateY(-50%);
+   font-size: 20px;
+}
+.remember{
+   display: flex;
+   justify-content: space-between;
+   font-size: 15px;
+   margin: -15px 0 15px;
+}
+.remember label input{
+   accent-color: #fff;
+   margin-right: 5px;
+}
+.remember a:hover,
+.register a:hover{
+   color: #ededed;
+}
+.btn{
+   width: 100%;
+   height: 45px;
+   font-size: 16px;
+   color: #333;
+   background: #fff;
+   border: none;
+   border-radius: 45px;
+   box-shadow: 0 0 10px #0000001a;
+   cursor: pointer;
+}
+.register{
+   font-size: 15px;
+   text-align: center;
+   margin-top: 20px;
+}
+.register a{
+   font-weight: 600;
+}
